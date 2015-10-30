@@ -3,7 +3,8 @@
 	<head>
     	<meta charset="utf-8">
 		  <title>Change</title>
-
+<!-- bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/styles.css">
 
@@ -12,12 +13,20 @@
     <script src="base.js"></script>
 	</head>
 	<body>
+    <!--   nav bar  -->
+      <ul class="nav nav-pills">
+      <li role="presentation"><a href="file:///Users/zoharmuzafi/develop/jquery_practice/events_lab/click/index.html">Click</a></li>
+      <li role="presentation"><a href="file:///Users/zoharmuzafi/develop/jquery_practice/events_lab/keypress/index.html">Keypress</a></li>
+      <li role="presentation"><a href="file:///Users/zoharmuzafi/develop/jquery_practice/events_lab/ready/index.html">Ready</a></li>
+      <li role="presentation"><a href="file:///Users/zoharmuzafi/develop/jquery_practice/events_lab/submit/index.html">Submit</a></li>
+  </ul>
     <h1>Add the numbers!</h1>
     <p>Last refresh: <span id="time"></span></p>
     <!-- <form> -->
       <input type="number" class="add" id="left"> +
       <input type="number" class="add" id="right"> =
       <input type="number" id="total"><br>
+      <button type="button" id = "button">clear!</button>
     <!-- </form> -->
 	</body>
 </html>
